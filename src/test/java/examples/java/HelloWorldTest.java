@@ -21,12 +21,17 @@ public class HelloWorldTest {
 
 	@Test
 	public void testGetMessage2() {
-		assertEquals("Hello moussa Tonux!", subject.getMessage("Tonux"));
+		assertEquals("Hello Tonux!", subject.getMessage("Tonux"));
 	}
 
 	@Test
 	public void testSum(){
 		assertEquals(4, subject.sum(2,2));
+	}
+
+	@Test
+	public void testSum2(){
+		assertNotEquals(5, subject.sum(1,3));
 	}
 	
 }
