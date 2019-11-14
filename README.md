@@ -83,7 +83,7 @@ after_success:
             </activation>
             <properties>
                 <!-- Enter your SonarQube instance URL here -->
-                <sonar.host.url>http://localhost:9000/sonarqube</sonar.host.url>
+                <sonar.host.url>http://localhost:9000</sonar.host.url>
             </properties>
         </profile>
      </profiles>
